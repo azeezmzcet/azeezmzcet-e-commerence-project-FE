@@ -1,0 +1,15 @@
+@keyframes zoomInOut {
+0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.3); /* Adjust the scale factor as needed */
+    }
+  }
+
+/* CSS for the zoom in and out effect */
+.animate-zoom-in-out {
+    animation: zoomInOut 1s infinite ease-in-out; /* Animation duration is 2 seconds and it repeats infinitely */
+  }
+  
+  

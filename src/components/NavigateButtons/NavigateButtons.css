@@ -1,0 +1,15 @@
+/* NavigateButtons.css */
+.navigate-button {
+    /* Add custom styles for buttons here */
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Dropdown button styling */
+  .navigate-button-dropdown {
+    /* Add custom styles for the dropdown button here */
+    font-weight: bold;
+  }
+  

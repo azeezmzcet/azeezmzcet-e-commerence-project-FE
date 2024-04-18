@@ -1,0 +1,26 @@
+/* Error container styling */
+.error-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100vh;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  /* Error alert styling */
+  .error-alert {
+    width: 24rem; /* Adjust the width as needed */
+    padding: 16px;
+    background-color: #f87171; /* Red color */
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  /* Error alert text styling */
+  .error-alert-text {
+    font-size: 1.25rem; /* Text size equivalent to text-xl in Tailwind */
+    font-weight: bold; /* Font weight equivalent to font-bold in Tailwind */
+    font-family: 'Inter', sans-serif; /* Font family equivalent to font-inter in Tailwind */
+    color: white; /* Text color */
+  }
+  
